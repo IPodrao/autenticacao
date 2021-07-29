@@ -34,7 +34,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/v1/autenticacao")
-public class AutenticacaoController {
+public class AutenticacaoController implements AutenticacaoControllerOpenApi {
 
 	private final CadastrarUsuario cadastrarUsuario;
 	private final CadastrarFuncao cadastrarFuncao;
